@@ -1,0 +1,44 @@
+body{
+    max-width: 1440px;
+}
+
+strong{
+    color: #6C63FF;
+}
+
+.cabecalho{
+    padding: 60px;
+    position: relative
+}
+
+.cabecalho h1, strong{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.cabecalho a{
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+
+.cabecalho ul li a:hover{
+    font-weight: 300;
+}
