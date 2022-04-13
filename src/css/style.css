@@ -63,3 +63,11 @@ strong{
     font-size: 48px;
     font-weight: 700;
 }
+
+h2, h2 strong{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 125px;
+}
+
