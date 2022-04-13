@@ -11,7 +11,7 @@ strong{
     position: relative
 }
 
-.cabecalho h1, strong{
+.cabecalho h1, .cabecalho strong{
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
@@ -41,4 +41,25 @@ strong{
 
 .cabecalho ul li a:hover{
     font-weight: 300;
+}
+
+.painel{
+    height: 650px;
+    padding: 123px 100px;
+}
+
+.painel img{
+    float: left;
+    height: 400px;
+}
+
+.painel p{
+    padding: 125px 0 0 580px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.painel strong{
+    font-size: 48px;
+    font-weight: 700;
 }
